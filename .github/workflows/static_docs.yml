@@ -1,5 +1,7 @@
 name: static_docs
 
+permissions: write-all
+
 on:
   push:
     branches:
