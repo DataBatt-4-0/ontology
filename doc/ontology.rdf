@@ -55,6 +55,20 @@
     
 
 
+    <!-- https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800 -->
+
+
+    <owl:ObjectProperty rdf:about="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb -->
+
+
+    <owl:ObjectProperty rdf:about="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -83,18 +97,12 @@
     
 
 
-    <!-- http://org.semanticweb.owlapi/error#Error2 -->
-
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error2"/>
-    
-
-
     <!-- http://www.databatt.org/Adhesion -->
 
 
     <owl:Class rdf:about="http://www.databatt.org/Adhesion">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -104,6 +112,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Agglomerate_size">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -176,6 +185,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Aging_duration">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -185,6 +195,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Aging_temperature">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -194,6 +205,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Air_nozzle_spacing">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/MachineParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4"/>
     </owl:Class>
     
 
@@ -203,6 +215,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Air_velocity">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -212,6 +225,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Air_volume_flow">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -221,6 +235,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Ambient_temperature">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/EnvironmentalParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/usesUnit"/>
@@ -236,6 +251,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Amplitude">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -245,6 +261,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Atmosphere">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/EnvironmentalParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4"/>
     </owl:Class>
     
 
@@ -254,6 +271,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Binder_and_conductivity_additive_migration">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -263,6 +281,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Burr_height">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -401,6 +420,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Cell_leak_tightness">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -410,6 +430,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Charge_and_discharge_cycles">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -419,6 +440,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Charge_state_of_the_cell_for_shipping">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -428,6 +450,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Charging_current">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -437,6 +460,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Charging_voltage">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -446,6 +470,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Clamping_force_of_the_hold-down">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -455,6 +480,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Clean_room">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/EnvironmentalParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4"/>
     </owl:Class>
     
 
@@ -617,6 +643,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Coating_accuracy">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -626,6 +653,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Coating_porosity">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -635,6 +663,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Coating_thickness">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -644,6 +673,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Coating_weight">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -653,6 +683,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Compression_pressure_during_formation">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -662,6 +693,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Contact_pressure">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -671,6 +703,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Contact_pressure_of_the_sonotrode_on_the_anvil">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -680,6 +713,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Contact_resistance_of_the_cell_tab">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -698,6 +732,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Contamination">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -707,6 +742,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Cut_size_variation">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -716,6 +752,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Cutting_accuracy">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -725,6 +762,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Cutting_edge_geometries">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -734,6 +772,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Cutting_speed">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -743,6 +782,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Cycle_time">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -752,6 +792,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Cycle_times">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -761,6 +802,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Die_Retraction">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -779,6 +821,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Diffusion_coefficient_of_the_electrolyte">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/MaterialParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0"/>
     </owl:Class>
     
 
@@ -929,6 +972,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Drying_line">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/MachineParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4"/>
     </owl:Class>
     
 
@@ -938,6 +982,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Drying_time">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -947,6 +992,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Duration_of_the_deep_drawing_process">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -956,6 +1002,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Electrical-dynamic_behavior">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -965,6 +1012,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Electrical_charge">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -983,6 +1031,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Electrical_internal_resistance">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -992,6 +1041,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Electrode_cutting_height">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1001,6 +1051,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Electrode_geometry">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1010,6 +1061,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Electrode_mass">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1028,6 +1080,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Electrolyte_quantity">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -1037,6 +1090,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Electrolyte_temperature">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1266,6 +1320,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Filling_duration">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -1275,6 +1330,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Filling_quantity_accuracy">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1311,6 +1367,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Foreign_metallic_particles">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1320,6 +1377,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Foreign_particle_concentration">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1440,6 +1498,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Formation_duration">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -1449,6 +1508,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Fractures_in_the_material">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1458,6 +1518,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Frequency">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -1467,6 +1528,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Gap_size">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1476,6 +1538,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Heat_capacity_of_the_cell">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1494,6 +1557,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Hold_down_force">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -1503,6 +1567,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Holding_force_of_the_cell_tab_contact">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1512,6 +1577,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Homogeneity">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1521,6 +1587,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Homogeneity_of_the_SEI_layer">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1530,6 +1597,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Homogeneity_of_the_slurry">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1539,6 +1607,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Impedance">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1548,6 +1617,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Line_pressure">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -1557,7 +1627,6 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Machine">
         <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error1"/>
-        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error2"/>
     </owl:Class>
     
 
@@ -1594,6 +1663,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Material_temperature">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1612,6 +1682,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Microstructure_deformation">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1621,6 +1692,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Mixer_type">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/MachineParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4"/>
     </owl:Class>
     
 
@@ -1771,6 +1843,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Mixing_Temperature">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -1780,6 +1853,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Mixing_duration">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -1789,6 +1863,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Mixing_speed">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -1807,6 +1882,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Number_of_filling_cycles">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -1816,6 +1892,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Number_of_roll_pressings">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -1843,6 +1920,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Operating_speed">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -1852,6 +1930,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Optical_inspection">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1909,6 +1988,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Packaging_size">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/MachineParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4"/>
     </owl:Class>
     
 
@@ -1925,6 +2005,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Particle_size">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1934,6 +2015,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Pore_size_distribution">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1943,6 +2025,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Positioning_accuracy">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -1952,6 +2035,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Positioning_accuracy_of_the_electrode_sheets">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -1970,6 +2054,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Precharge_duration">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -1979,6 +2064,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Pressure_stages_during_roll_pressing">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2007,6 +2093,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Process_times_per_cell">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2016,6 +2103,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Pump_flow_rate">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2025,6 +2113,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Punching_speed">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2034,6 +2123,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Punching_time">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2053,6 +2143,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Recirculation_rate">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2071,6 +2162,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Residual_humidity">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -2080,6 +2172,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Rewinding_accuracy">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -2158,6 +2251,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Roller_coating">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/MachineParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4"/>
     </owl:Class>
     
 
@@ -2167,6 +2261,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Roller_drive_velocity">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2176,6 +2271,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Roller_spacing">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2185,6 +2281,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Roller_temperature">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2194,6 +2291,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Roller_width">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/MachineParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4"/>
     </owl:Class>
     
 
@@ -2203,6 +2301,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Rough_quality_assessment">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -2212,6 +2311,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/SEI_layer_thickness">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -2221,6 +2321,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/SOC">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2347,6 +2448,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Sealing_duration">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2356,6 +2458,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Sealing_pressure">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2512,6 +2615,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Separator_pre-tension">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2521,6 +2625,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Separator_speed">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2530,6 +2635,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Separator_thickness">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/MaterialParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0"/>
     </owl:Class>
     
 
@@ -2539,6 +2645,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Separator_tortuosity">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/MaterialParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0"/>
     </owl:Class>
     
 
@@ -2647,6 +2754,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Slot_die_angle">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/MachineParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4"/>
     </owl:Class>
     
 
@@ -2656,6 +2764,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Slot_die_distance">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/MachineParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4"/>
     </owl:Class>
     
 
@@ -2665,6 +2774,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Slot_width">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/MachineParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4"/>
     </owl:Class>
     
 
@@ -2674,6 +2784,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Slurry_density">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -2683,6 +2794,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Slurry_purity">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -2692,6 +2804,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Solids_content_of_the_slurry">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -2797,6 +2910,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Stamping_force">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2815,6 +2929,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Suction_pressure_of_the_gripper">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2824,6 +2939,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Surface_roughness">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -2851,6 +2967,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Temperature">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2860,6 +2977,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Temperature_control_of_the_roller">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2869,6 +2987,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Temperature_input">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -2878,6 +2997,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Temperature_of_the_coating_material">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2887,6 +3007,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Temperature_profile_in_the_dryer_zone">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2896,6 +3017,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Temperature_stability_of_the_separator">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -2905,6 +3027,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Tensile_strength_of_the_separator">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/MaterialParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0"/>
     </owl:Class>
     
 
@@ -2914,6 +3037,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Tension">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -2923,6 +3047,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Thermal_conductivity_of_the_cell">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -2932,6 +3057,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Transition_resistance_of_the_cell_tab">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -3028,6 +3154,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Vacuum_pressure">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -3046,6 +3173,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Viscosity">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -3055,6 +3183,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Voltage">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -3064,6 +3193,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Voltage_loss_rate">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -3073,6 +3203,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Volume_flow">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -3082,6 +3213,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Web_edge">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -3091,6 +3223,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Web_speed">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -3100,6 +3233,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Web_tension">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -3217,6 +3351,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Welding_time">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -3235,6 +3370,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Winding_accuracy">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -3280,6 +3416,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Foil_folding_(Wrinkle)">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/QualityCharacteristic"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
     </owl:Class>
     
 
@@ -3289,6 +3426,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Humidity_(dew_point)">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/EnvironmentalParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4"/>
     </owl:Class>
     
 
@@ -3307,6 +3445,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Shear_rate_(doctor_blade)">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -3316,6 +3455,7 @@
 
     <owl:Class rdf:about="http://www.databatt.org/Shear_rate_(slot)">
         <rdfs:subClassOf rdf:resource="http://www.databatt.org/ProcessParameter"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
     </owl:Class>
     
 
@@ -3407,21 +3547,216 @@
     <!-- https://bvco.ontology.link/BVCO_770afd63_53d3_4fcf_93da_03bce141996b -->
 
 
-    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_770afd63_53d3_4fcf_93da_03bce141996b"/>
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_770afd63_53d3_4fcf_93da_03bce141996b">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Burr_height"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Contamination"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Cutting_edge_geometries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Cutting_speed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Foreign_metallic_particles"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Microstructure_deformation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Positioning_accuracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Rewinding_accuracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Temperature_input"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
     <!-- https://bvco.ontology.link/BVCO_f0e29a4f_d749_436c_9a89_ae0ca1cd305c -->
 
 
-    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_f0e29a4f_d749_436c_9a89_ae0ca1cd305c"/>
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_f0e29a4f_d749_436c_9a89_ae0ca1cd305c">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Charge_and_discharge_cycles"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Charging_current"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Charging_voltage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Compression_pressure_during_formation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Formation_duration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Homogeneity_of_the_SEI_layer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Precharge_duration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/SEI_layer_thickness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Charging_range_(SOC)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
     <!-- https://bvco.ontology.link/BVCO_f986191d_8d5b_4313_97e1_b8c9bcea1aa9 -->
 
 
-    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_f986191d_8d5b_4313_97e1_b8c9bcea1aa9"/>
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_f986191d_8d5b_4313_97e1_b8c9bcea1aa9">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Aging_duration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Aging_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/SOC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Voltage_loss_rate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -3432,6 +3767,220 @@
     
 
 
+    <!-- https://gpo.ontology.link/GPO_13cf7fc2_c0d4_4060_97c8_93e929870f5b -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_13cf7fc2_c0d4_4060_97c8_93e929870f5b">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Separator_thickness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Separator_tortuosity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Tensile_strength_of_the_separator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Wear_resistance_(tool_life)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Cut_size_variation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Cutting_accuracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Cycle_times"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Electrode_cutting_height"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Electrode_geometry"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Electrode_mass"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Punching_speed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Punching_time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Temperature_stability_of_the_separator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_3e035b43_43cc_475d_aa31_185eaff4aa6f -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_3e035b43_43cc_475d_aa31_185eaff4aa6f">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Air_nozzle_spacing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Drying_line"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Air_velocity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Air_volume_flow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Binder_and_conductivity_additive_migration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Fractures_in_the_material"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Homogeneity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Material_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Recirculation_rate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Residual_humidity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Temperature_profile_in_the_dryer_zone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Web_speed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Web_tension"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Winding_accuracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232 -->
 
 
@@ -3439,24 +3988,583 @@
     
 
 
+    <!-- https://gpo.ontology.link/GPO_57c4b094_e905_4307_9cdd_0db39e88e46d -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_57c4b094_e905_4307_9cdd_0db39e88e46d">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Atmosphere"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Mixer_type"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Mixing_Temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Mixing_duration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Mixing_speed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Agglomerate_size"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_5c298112_0e26_42fe_9984_dadfcee54007 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_5c298112_0e26_42fe_9984_dadfcee54007">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Atmosphere"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Mixer_type"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Agglomerate_size"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Homogeneity_of_the_slurry"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Mixing_Temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Mixing_duration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Mixing_speed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Slurry_density"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Slurry_purity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Solids_content_of_the_slurry"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- https://gpo.ontology.link/GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d -->
 
 
-    <owl:Class rdf:about="https://gpo.ontology.link/GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d"/>
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clamping_force_of_the_hold-down"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Cycle_times"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Electrical_charge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Foreign_particle_concentration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Positioning_accuracy_of_the_electrode_sheets"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Separator_pre-tension"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Separator_speed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Suction_pressure_of_the_gripper"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
     <!-- https://gpo.ontology.link/GPO_65e00d30_9d66_4018_a7b9_a671729a1794 -->
 
 
-    <owl:Class rdf:about="https://gpo.ontology.link/GPO_65e00d30_9d66_4018_a7b9_a671729a1794"/>
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_65e00d30_9d66_4018_a7b9_a671729a1794">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Duration_of_the_deep_drawing_process"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Hold_down_force"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Sealing_duration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Sealing_pressure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Sealing_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Stamp_speed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Stamping_force"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Vacuum_pressure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Vacuum_time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_66366e89_4a13_4996_b887_a127e498ed98 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_66366e89_4a13_4996_b887_a127e498ed98">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Packaging_size"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Drying_time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Vacuum_pressure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Volume_flow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_6729f82e_56bc_4fae_a69d_ad4655f245e0 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_6729f82e_56bc_4fae_a69d_ad4655f245e0">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Slot_die_angle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Slot_die_distance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Slot_width"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Coating_accuracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Coating_porosity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Coating_thickness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Coating_weight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Die_Retraction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Operating_speed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Particle_size"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Pump_flow_rate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Rough_quality_assessment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Temperature_of_the_coating_material"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Viscosity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Web_edge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Web_tension"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Shear_rate_(doctor_blade)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Shear_rate_(slot)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
     <!-- https://gpo.ontology.link/GPO_680078b4_e669_407d_a9a5_902c1f55031a -->
 
 
-    <owl:Class rdf:about="https://gpo.ontology.link/GPO_680078b4_e669_407d_a9a5_902c1f55031a"/>
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_680078b4_e669_407d_a9a5_902c1f55031a">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Diffusion_coefficient_of_the_electrolyte"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Electrolyte_quantity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Electrolyte_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Filling_duration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Filling_quantity_accuracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Number_of_filling_cycles"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Volume_flow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4"/>
     
 
 
@@ -3474,6 +4582,190 @@
     
 
 
+    <!-- https://gpo.ontology.link/GPO_ad83fdc3_f3ec_4037_b06f_1675a531f29f -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_ad83fdc3_f3ec_4037_b06f_1675a531f29f">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Amplitude"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Contact_pressure_of_the_sonotrode_on_the_anvil"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Contact_resistance_of_the_cell_tab"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Cycle_time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Frequency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Holding_force_of_the_cell_tab_contact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Transition_resistance_of_the_cell_tab"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Welding_time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Air_nozzle_spacing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Drying_line"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Air_velocity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Air_volume_flow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Binder_and_conductivity_additive_migration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Fractures_in_the_material"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Material_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Recirculation_rate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Residual_humidity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Temperature_profile_in_the_dryer_zone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Web_speed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Web_tension"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Winding_accuracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Coating_thickness_(wet)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- https://gpo.ontology.link/GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331 -->
 
 
@@ -3481,24 +4773,710 @@
     
 
 
+    <!-- https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2"/>
+    
+
+
     <!-- https://gpo.ontology.link/GPO_d7b2ecea_f055_4e3e_b5b9_020b8d81130d -->
 
 
-    <owl:Class rdf:about="https://gpo.ontology.link/GPO_d7b2ecea_f055_4e3e_b5b9_020b8d81130d"/>
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_d7b2ecea_f055_4e3e_b5b9_020b8d81130d">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Contact_pressure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Number_of_roll_pressings"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Pressure_stages_during_roll_pressing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Process_times_per_cell"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Roller_spacing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Roller_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
     <!-- https://gpo.ontology.link/GPO_e4ba15be_8fe4_4f9e_9189_c9e762f86492 -->
 
 
-    <owl:Class rdf:about="https://gpo.ontology.link/GPO_e4ba15be_8fe4_4f9e_9189_c9e762f86492"/>
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_e4ba15be_8fe4_4f9e_9189_c9e762f86492">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Cell_leak_tightness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Charge_state_of_the_cell_for_shipping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Electrical-dynamic_behavior"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Electrical_internal_resistance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Foreign_particle_concentration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Heat_capacity_of_the_cell"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Impedance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Optical_inspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Thermal_conductivity_of_the_cell"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Voltage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Atmosphere"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Mixer_type"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Agglomerate_size"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Homogeneity_of_the_slurry"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Mixing_duration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Mixing_speed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Mixing_time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Slurry_density"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Slurry_purity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Solids_content_of_the_slurry"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Viscosity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_eec11194_1552_47db_a410_997d651c92aa -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_eec11194_1552_47db_a410_997d651c92aa">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Slot_die_angle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Slot_die_distance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Slot_width"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Coating_accuracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Coating_porosity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Coating_thickness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Coating_weight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Die_Retraction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Operating_speed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Particle_size"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Pump_flow_rate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Rough_quality_assessment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Temperature_of_the_coating_material"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Viscosity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Web_edge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Web_tension"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Shear_rate_(doctor_blade)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Shear_rate_(slot)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_f48e1432_3ddd_4077_824f_fc664c72f7cf -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_f48e1432_3ddd_4077_824f_fc664c72f7cf">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Slot_die_angle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Slot_die_distance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Slot_width"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Coating_accuracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Coating_porosity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Coating_thickness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Coating_weight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Die_Retraction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Operating_speed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Particle_size"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Pump_flow_rate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Rough_quality_assessment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Temperature_of_the_coating_material"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Viscosity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Web_tension"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Foil_folding_(Wrinkle)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Shear_rate_(doctor_blade)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Shear_rate_(slot)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
     <!-- https://gpo.ontology.link/GPO_f846eaba_e75a_49df_b71a_5f769e6a7e7e -->
 
 
-    <owl:Class rdf:about="https://gpo.ontology.link/GPO_f846eaba_e75a_49df_b71a_5f769e6a7e7e"/>
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_f846eaba_e75a_49df_b71a_5f769e6a7e7e">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Roller_coating"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Roller_width"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Adhesion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Coating_porosity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Fractures_in_the_material"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Gap_size"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Line_pressure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Pore_size_distribution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Roller_drive_velocity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Surface_roughness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Temperature_control_of_the_roller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Tension"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Winding_accuracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Foil_folding_(Wrinkle)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_f882d2a2_64bc_442a_a23e_81a54082c647 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_f882d2a2_64bc_442a_a23e_81a54082c647">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Ambient_temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Atmosphere"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Clean_room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Mixer_type"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Humidity_(dew_point)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Agglomerate_size"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Mixing_Temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Mixing_speed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Mixing_time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Slurry_density"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Slurry_purity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Solids_content_of_the_slurry"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="http://www.databatt.org/Viscosity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     <rdf:Description>
         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
     </rdf:Description>
