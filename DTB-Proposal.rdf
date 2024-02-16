@@ -20,8 +20,8 @@
         <owl:imports rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2"/>
         <owl:imports rdf:resource="http://www.w3.org/2006/time#2016"/>
         <owl:imports rdf:resource="https://gpo.ontology.link"/>
-        <owl:imports rdf:resource="https://big-map.github.io/BattINFO/ontology/BattINFO/0.5.0/battinfo"/>
-        <owl:imports rdf:resource="https://bvco.ontology.link/0.4.0"/>
+        <owl:imports rdf:resource="https://big-map.github.io/BattINFO/ontology/BattINFO"/>
+        <owl:imports rdf:resource="https://bvco.ontology.link"/>
     </owl:Ontology>
 
 
