@@ -6,5 +6,4 @@
     <uri id="Imports Wizard Entry" name="https://big-map.github.io/BattINFO/ontology/BattINFO" uri="https://raw.githubusercontent.com/BIG-MAP/BattINFO/master/battinfo.ttl"/>
     <uri name="http://emmo.info/battery/0.6.0/battery-inferred" uri="https://raw.githubusercontent.com/emmo-repo/domain-battery/0.6.0/inferred_version/battery-inferred.ttl"/>
     <uri id="Imports Wizard Entry" name="http://www.ontology-of-units-of-measure.org/resource/om-2" uri="http://www.ontology-of-units-of-measure.org/data/om-2.ttl"/>
-    <uri id="Imports Wizard Entry" name="http://www.w3.org/2006/time#2016" uri="http://www.w3.org/2006/time#"/>
 </catalog>
