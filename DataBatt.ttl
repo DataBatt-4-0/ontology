@@ -18,7 +18,6 @@
 <http://www.databatt.org/> rdf:type owl:Ontology ;
                             owl:imports <http://emmo.info/emmo/1.0.0-beta4> ,
                                         <http://www.ontology-of-units-of-measure.org/resource/om-2> ,
-                                        <http://www.w3.org/2006/time#2016> ,
                                         <https://bvco.ontology.link> ,
                                         <https://gpo.ontology.link> ,
                                         <https://big-map.github.io/BattINFO/ontology/BattINFO> .
@@ -443,11 +442,6 @@ om-2:CelsiusTemperature rdf:type owl:Class .
                                          <https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2> .
 
 
-###  http://www.semanticweb.org/frederik/ontologies/2023/6/untitled-ontology-11/EndInstant
-:EndInstant rdf:type owl:Class ;
-            rdfs:subClassOf <http://www.w3.org/2006/time#Instant> .
-
-
 ###  http://www.semanticweb.org/frederik/ontologies/2023/6/untitled-ontology-11/EnvironmentalParameter
 :EnvironmentalParameter rdf:type owl:Class ;
                         rdfs:subClassOf :MeasuredParameter ,
@@ -461,11 +455,6 @@ om-2:CelsiusTemperature rdf:type owl:Class .
                                    owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
                                    owl:someValuesFrom <https://gpo.ontology.link/GPO_e4ba15be_8fe4_4f9e_9189_c9e762f86492>
                                  ] .
-
-
-###  http://www.semanticweb.org/frederik/ontologies/2023/6/untitled-ontology-11/EventInstant
-:EventInstant rdf:type owl:Class ;
-              rdfs:subClassOf <http://www.w3.org/2006/time#Instant> .
 
 
 ###  http://www.semanticweb.org/frederik/ontologies/2023/6/untitled-ontology-11/FillingMachine
@@ -1029,11 +1018,6 @@ om-2:CelsiusTemperature rdf:type owl:Class .
 :Stamping_force rdf:type owl:Class ;
                 rdfs:subClassOf :ProcessParameter ,
                                 <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> .
-
-
-###  http://www.semanticweb.org/frederik/ontologies/2023/6/untitled-ontology-11/StartInstant
-:StartInstant rdf:type owl:Class ;
-              rdfs:subClassOf <http://www.w3.org/2006/time#Instant> .
 
 
 ###  http://www.semanticweb.org/frederik/ontologies/2023/6/untitled-ontology-11/Suction_pressure_of_the_gripper
