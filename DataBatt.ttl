@@ -70,11 +70,7 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
 
 ###  http://www.databatt.org/AgingMachine
 :AgingMachine rdf:type owl:Class ;
-              rdfs:subClassOf :Machine ,
-                              [ rdf:type owl:Restriction ;
-                                owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
-                                owl:someValuesFrom <https://bvco.ontology.link/BVCO_f986191d_8d5b_4313_97e1_b8c9bcea1aa9>
-                              ] .
+              rdfs:subClassOf :Machine .
 
 
 ###  http://www.databatt.org/AgingTemperature
@@ -161,11 +157,7 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
 
 ###  http://www.databatt.org/CalendaringMachine
 :CalendaringMachine rdf:type owl:Class ;
-                    rdfs:subClassOf :Machine ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
-                                      owl:someValuesFrom <https://gpo.ontology.link/GPO_f846eaba_e75a_49df_b71a_5f769e6a7e7e>
-                                    ] .
+                    rdfs:subClassOf :Machine .
 
 
 ###  http://www.databatt.org/CellLeakTightness
@@ -194,6 +186,11 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
                                    owl:onProperty emmo:EMMO_5d73661e_e710_4844_ab9b_a85b7e68576a ;
                                    owl:someValuesFrom emmo:EMMO_c995ae70_3b84_4ebb_bcfc_69e6a281bb88
                                  ] .
+
+
+###  http://www.databatt.org/ChargingRangeSOC
+:ChargingRangeSOC rdf:type owl:Class ;
+                  rdfs:subClassOf :ProcessParameter .
 
 
 ###  http://www.databatt.org/ChargingVoltage
@@ -228,13 +225,14 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
                                  <https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2> .
 
 
+###  http://www.databatt.org/CoatingAccuracyWet
+:CoatingAccuracyWet rdf:type owl:Class ;
+                    rdfs:subClassOf :QualityCharacteristic .
+
+
 ###  http://www.databatt.org/CoatingMachine
 :CoatingMachine rdf:type owl:Class ;
-                rdfs:subClassOf :Machine ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
-                                  owl:someValuesFrom <https://gpo.ontology.link/GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331>
-                                ] .
+                rdfs:subClassOf :Machine .
 
 
 ###  http://www.databatt.org/CoatingPorosity
@@ -251,6 +249,11 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
                                     owl:onProperty emmo:EMMO_5d73661e_e710_4844_ab9b_a85b7e68576a ;
                                     owl:someValuesFrom emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac
                                   ] .
+
+
+###  http://www.databatt.org/CoatingThicknessWet
+:CoatingThicknessWet rdf:type owl:Class ;
+                     rdfs:subClassOf :QualityCharacteristic .
 
 
 ###  http://www.databatt.org/CoatingWeight
@@ -383,11 +386,7 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
 
 ###  http://www.databatt.org/DryingMachine
 :DryingMachine rdf:type owl:Class ;
-               rdfs:subClassOf :Machine ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
-                                 owl:someValuesFrom <https://gpo.ontology.link/GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8>
-                               ] .
+               rdfs:subClassOf :Machine .
 
 
 ###  http://www.databatt.org/DryingTime
@@ -492,11 +491,7 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
 
 ###  http://www.databatt.org/EoLTestMachine
 :EoLTestMachine rdf:type owl:Class ;
-                rdfs:subClassOf :Machine ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
-                                  owl:someValuesFrom <https://gpo.ontology.link/GPO_e4ba15be_8fe4_4f9e_9189_c9e762f86492>
-                                ] .
+                rdfs:subClassOf :Machine .
 
 
 ###  http://www.databatt.org/FillingDuration
@@ -511,17 +506,19 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
 
 ###  http://www.databatt.org/FillingMachine
 :FillingMachine rdf:type owl:Class ;
-                rdfs:subClassOf :Machine ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
-                                  owl:someValuesFrom <https://gpo.ontology.link/GPO_680078b4_e669_407d_a9a5_902c1f55031a>
-                                ] .
+                rdfs:subClassOf :Machine .
 
 
 ###  http://www.databatt.org/FillingQuantityAccuracy
 :FillingQuantityAccuracy rdf:type owl:Class ;
                          rdfs:subClassOf :QualityCharacteristic ,
                                          <https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2> .
+
+
+###  http://www.databatt.org/FoilFoldingWrinkle
+:FoilFoldingWrinkle rdf:type owl:Class ;
+                    rdfs:subClassOf :QualityCharacteristic ,
+                                    <https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2> .
 
 
 ###  http://www.databatt.org/FoldingPressure
@@ -575,11 +572,7 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
 
 ###  http://www.databatt.org/FormationMachine
 :FormationMachine rdf:type owl:Class ;
-                  rdfs:subClassOf :Machine ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
-                                    owl:someValuesFrom <https://bvco.ontology.link/BVCO_f0e29a4f_d749_436c_9a89_ae0ca1cd305c>
-                                  ] .
+                  rdfs:subClassOf :Machine .
 
 
 ###  http://www.databatt.org/FracturesInTheMaterial
@@ -743,11 +736,7 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
 
 ###  http://www.databatt.org/MixingMachine
 :MixingMachine rdf:type owl:Class ;
-               rdfs:subClassOf :Machine ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
-                                 owl:someValuesFrom <https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232>
-                               ] .
+               rdfs:subClassOf :Machine .
 
 
 ###  http://www.databatt.org/MixingSpeed
@@ -832,11 +821,7 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
 
 ###  http://www.databatt.org/PackagingMachine
 :PackagingMachine rdf:type owl:Class ;
-                  rdfs:subClassOf :Machine ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
-                                    owl:someValuesFrom <https://bvco.ontology.link/BVCO_5528bfb0_a7ad_48da_8417_9e43b0164930>
-                                  ] .
+                  rdfs:subClassOf :Machine .
 
 
 ###  http://www.databatt.org/PackagingSize
@@ -972,11 +957,7 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
 
 ###  http://www.databatt.org/RollPressingMachine
 :RollPressingMachine rdf:type owl:Class ;
-                     rdfs:subClassOf :Machine ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
-                                       owl:someValuesFrom <https://gpo.ontology.link/GPO_d7b2ecea_f055_4e3e_b5b9_020b8d81130d>
-                                     ] .
+                     rdfs:subClassOf :Machine .
 
 
 ###  http://www.databatt.org/RollerCoating
@@ -1055,11 +1036,7 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
 
 ###  http://www.databatt.org/SealingMachine
 :SealingMachine rdf:type owl:Class ;
-                rdfs:subClassOf :Machine ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
-                                  owl:someValuesFrom <https://gpo.ontology.link/GPO_65e00d30_9d66_4018_a7b9_a671729a1794>
-                                ] .
+                rdfs:subClassOf :Machine .
 
 
 ###  http://www.databatt.org/SealingPressure
@@ -1084,11 +1061,7 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
 
 ###  http://www.databatt.org/SeparatingMachine
 :SeparatingMachine rdf:type owl:Class ;
-                   rdfs:subClassOf :Machine ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
-                                     owl:someValuesFrom <https://gpo.ontology.link/GPO_aa217fba_9840_4176_98a6_e247cf0181c8>
-                                   ] .
+                   rdfs:subClassOf :Machine .
 
 
 ###  http://www.databatt.org/SeparatorPreTension
@@ -1127,13 +1100,21 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
                                      <https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0> .
 
 
+###  http://www.databatt.org/ShearRateDoctorBlade
+:ShearRateDoctorBlade rdf:type owl:Class ;
+                      rdfs:subClassOf :ProcessParameter ,
+                                      <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> .
+
+
+###  http://www.databatt.org/ShearRateSlot
+:ShearRateSlot rdf:type owl:Class ;
+               rdfs:subClassOf :ProcessParameter ,
+                               <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> .
+
+
 ###  http://www.databatt.org/SlittingMachine
 :SlittingMachine rdf:type owl:Class ;
-                 rdfs:subClassOf :Machine ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
-                                   owl:someValuesFrom <https://bvco.ontology.link/BVCO_770afd63_53d3_4fcf_93da_03bce141996b>
-                                 ] .
+                 rdfs:subClassOf :Machine .
 
 
 ###  http://www.databatt.org/SlotDieAngle
@@ -1190,11 +1171,7 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
 
 ###  http://www.databatt.org/StackingMachine
 :StackingMachine rdf:type owl:Class ;
-                 rdfs:subClassOf :Machine ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
-                                   owl:someValuesFrom <https://gpo.ontology.link/GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d>
-                                 ] .
+                 rdfs:subClassOf :Machine .
 
 
 ###  http://www.databatt.org/StampSpeed
@@ -1346,11 +1323,7 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
 
 ###  http://www.databatt.org/VacuumDryingMachine
 :VacuumDryingMachine rdf:type owl:Class ;
-                     rdfs:subClassOf :Machine ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
-                                       owl:someValuesFrom <https://gpo.ontology.link/GPO_66366e89_4a13_4996_b887_a127e498ed98>
-                                     ] .
+                     rdfs:subClassOf :Machine .
 
 
 ###  http://www.databatt.org/VacuumPressure
@@ -1438,11 +1411,7 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
 
 ###  http://www.databatt.org/WeldingMachine
 :WeldingMachine rdf:type owl:Class ;
-                rdfs:subClassOf :Machine ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
-                                  owl:someValuesFrom <https://gpo.ontology.link/GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b>
-                                ] .
+                rdfs:subClassOf :Machine .
 
 
 ###  http://www.databatt.org/WeldingTime
@@ -1466,47 +1435,14 @@ emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 owl:equivalentClass :Machine .
                                  <https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2> .
 
 
-###  http://www.databatt.org/ChargingRange(SOC)
-<http://www.databatt.org/ChargingRange(SOC)> rdf:type owl:Class ;
-                                             rdfs:subClassOf :ProcessParameter .
-
-
-###  http://www.databatt.org/CoatingAccuracy(Wet)
-<http://www.databatt.org/CoatingAccuracy(Wet)> rdf:type owl:Class ;
-                                               rdfs:subClassOf :QualityCharacteristic .
-
-
-###  http://www.databatt.org/CoatingThickness(Wet)
-<http://www.databatt.org/CoatingThickness(Wet)> rdf:type owl:Class ;
-                                                rdfs:subClassOf :QualityCharacteristic .
-
-
 ###  http://www.databatt.org/Degree_of_wetting/DistributionOfTheElectrolyte
 <http://www.databatt.org/Degree_of_wetting/DistributionOfTheElectrolyte> rdf:type owl:Class ;
                                                                          rdfs:subClassOf :QualityCharacteristic .
 
 
-###  http://www.databatt.org/FoilFolding(Wrinkle)
-<http://www.databatt.org/FoilFolding(Wrinkle)> rdf:type owl:Class ;
-                                               rdfs:subClassOf :QualityCharacteristic ,
-                                                               <https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2> .
-
-
 ###  http://www.databatt.org/Punching_pressure/force
 <http://www.databatt.org/Punching_pressure/force> rdf:type owl:Class ;
                                                   rdfs:subClassOf :ProcessParameter .
-
-
-###  http://www.databatt.org/ShearRate(DoctorBlade)
-<http://www.databatt.org/ShearRate(DoctorBlade)> rdf:type owl:Class ;
-                                                 rdfs:subClassOf :ProcessParameter ,
-                                                                 <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> .
-
-
-###  http://www.databatt.org/ShearRate(Slot)
-<http://www.databatt.org/ShearRate(Slot)> rdf:type owl:Class ;
-                                          rdfs:subClassOf :ProcessParameter ,
-                                                          <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> .
 
 
 ###  http://www.ontology-of-units-of-measure.org/resource/om-2/CelsiusTemperature
@@ -1516,6 +1452,10 @@ om-2:CelsiusTemperature rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_5528bfb0_a7ad_48da_8417_9e43b0164930
 <https://bvco.ontology.link/BVCO_5528bfb0_a7ad_48da_8417_9e43b0164930> rdf:type owl:Class ;
                                                                        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                                                                         owl:someValuesFrom :PackagingMachine
+                                                                                       ] ,
+                                                                                       [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800> ;
                                                                                          owl:someValuesFrom :AmbientTemperature
                                                                                        ] ,
@@ -1576,6 +1516,10 @@ om-2:CelsiusTemperature rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_770afd63_53d3_4fcf_93da_03bce141996b
 <https://bvco.ontology.link/BVCO_770afd63_53d3_4fcf_93da_03bce141996b> rdf:type owl:Class ;
                                                                        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                                                                         owl:someValuesFrom :SlittingMachine
+                                                                                       ] ,
+                                                                                       [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800> ;
                                                                                          owl:someValuesFrom :AmbientTemperature
                                                                                        ] ,
@@ -1628,6 +1572,10 @@ om-2:CelsiusTemperature rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_f0e29a4f_d749_436c_9a89_ae0ca1cd305c
 <https://bvco.ontology.link/BVCO_f0e29a4f_d749_436c_9a89_ae0ca1cd305c> rdf:type owl:Class ;
                                                                        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                                                                         owl:someValuesFrom :FormationMachine
+                                                                                       ] ,
+                                                                                       [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800> ;
                                                                                          owl:someValuesFrom :AmbientTemperature
                                                                                        ] ,
@@ -1646,6 +1594,10 @@ om-2:CelsiusTemperature rdf:type owl:Class .
                                                                                        [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
                                                                                          owl:someValuesFrom :ChargingCurrent
+                                                                                       ] ,
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
+                                                                                         owl:someValuesFrom :ChargingRangeSOC
                                                                                        ] ,
                                                                                        [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
@@ -1674,16 +1626,16 @@ om-2:CelsiusTemperature rdf:type owl:Class .
                                                                                        [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
                                                                                          owl:someValuesFrom :Temperature
-                                                                                       ] ,
-                                                                                       [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
-                                                                                         owl:someValuesFrom <http://www.databatt.org/ChargingRange(SOC)>
                                                                                        ] .
 
 
 ###  https://bvco.ontology.link/BVCO_f986191d_8d5b_4313_97e1_b8c9bcea1aa9
 <https://bvco.ontology.link/BVCO_f986191d_8d5b_4313_97e1_b8c9bcea1aa9> rdf:type owl:Class ;
                                                                        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                                                                         owl:someValuesFrom :AgingMachine
+                                                                                       ] ,
+                                                                                       [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800> ;
                                                                                          owl:someValuesFrom :AmbientTemperature
                                                                                        ] ,
@@ -1715,6 +1667,10 @@ om-2:CelsiusTemperature rdf:type owl:Class .
 
 ###  https://gpo.ontology.link/GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8
 <https://gpo.ontology.link/GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                                                                       owl:someValuesFrom :DryingMachine
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800> ;
                                                                                        owl:someValuesFrom :AirNozzleSpacing
                                                                                      ] ,
@@ -1928,6 +1884,10 @@ om-2:CelsiusTemperature rdf:type owl:Class .
 
 ###  https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232
 <https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                                                                       owl:someValuesFrom :MixingMachine
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800> ;
                                                                                        owl:someValuesFrom :AgglomerateSize
                                                                                      ] ,
@@ -2097,6 +2057,10 @@ om-2:CelsiusTemperature rdf:type owl:Class .
 
 ###  https://gpo.ontology.link/GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d
 <https://gpo.ontology.link/GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                                                                       owl:someValuesFrom :StackingMachine
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800> ;
                                                                                        owl:someValuesFrom :AmbientTemperature
                                                                                      ] ,
@@ -2144,6 +2108,10 @@ om-2:CelsiusTemperature rdf:type owl:Class .
 
 ###  https://gpo.ontology.link/GPO_65e00d30_9d66_4018_a7b9_a671729a1794
 <https://gpo.ontology.link/GPO_65e00d30_9d66_4018_a7b9_a671729a1794> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                                                                       owl:someValuesFrom :SealingMachine
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800> ;
                                                                                        owl:someValuesFrom :AmbientTemperature
                                                                                      ] ,
@@ -2199,6 +2167,10 @@ om-2:CelsiusTemperature rdf:type owl:Class .
 
 ###  https://gpo.ontology.link/GPO_66366e89_4a13_4996_b887_a127e498ed98
 <https://gpo.ontology.link/GPO_66366e89_4a13_4996_b887_a127e498ed98> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                                                                       owl:someValuesFrom :VacuumDryingMachine
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800> ;
                                                                                        owl:someValuesFrom :AmbientTemperature
                                                                                      ] ,
@@ -2303,6 +2275,14 @@ om-2:CelsiusTemperature rdf:type owl:Class .
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
+                                                                                       owl:someValuesFrom :ShearRateDoctorBlade
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
+                                                                                       owl:someValuesFrom :ShearRateSlot
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
                                                                                        owl:someValuesFrom :TemperatureOfTheCoatingMaterial
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
@@ -2316,19 +2296,15 @@ om-2:CelsiusTemperature rdf:type owl:Class .
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
                                                                                        owl:someValuesFrom :WebTension
-                                                                                     ] ,
-                                                                                     [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
-                                                                                       owl:someValuesFrom <http://www.databatt.org/ShearRate(DoctorBlade)>
-                                                                                     ] ,
-                                                                                     [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
-                                                                                       owl:someValuesFrom <http://www.databatt.org/ShearRate(Slot)>
                                                                                      ] .
 
 
 ###  https://gpo.ontology.link/GPO_680078b4_e669_407d_a9a5_902c1f55031a
 <https://gpo.ontology.link/GPO_680078b4_e669_407d_a9a5_902c1f55031a> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                                                                       owl:someValuesFrom :FillingMachine
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800> ;
                                                                                        owl:someValuesFrom :AmbientTemperature
                                                                                      ] ,
@@ -2372,6 +2348,10 @@ om-2:CelsiusTemperature rdf:type owl:Class .
 
 ###  https://gpo.ontology.link/GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b
 <https://gpo.ontology.link/GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                                                                       owl:someValuesFrom :WeldingMachine
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800> ;
                                                                                        owl:someValuesFrom :AmbientTemperature
                                                                                      ] ,
@@ -2423,6 +2403,10 @@ om-2:CelsiusTemperature rdf:type owl:Class .
 
 ###  https://gpo.ontology.link/GPO_aa217fba_9840_4176_98a6_e247cf0181c8
 <https://gpo.ontology.link/GPO_aa217fba_9840_4176_98a6_e247cf0181c8> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                                                                       owl:someValuesFrom :SeparatingMachine
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800> ;
                                                                                        owl:someValuesFrom :AmbientTemperature
                                                                                      ] ,
@@ -2574,6 +2558,10 @@ om-2:CelsiusTemperature rdf:type owl:Class .
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
+                                                                                       owl:someValuesFrom :CoatingThicknessWet
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
                                                                                        owl:someValuesFrom :FracturesInTheMaterial
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
@@ -2603,15 +2591,15 @@ om-2:CelsiusTemperature rdf:type owl:Class .
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
                                                                                        owl:someValuesFrom :WindingAccuracy
-                                                                                     ] ,
-                                                                                     [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
-                                                                                       owl:someValuesFrom <http://www.databatt.org/CoatingThickness(Wet)>
                                                                                      ] .
 
 
 ###  https://gpo.ontology.link/GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331
 <https://gpo.ontology.link/GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                                                                       owl:someValuesFrom :CoatingMachine
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800> ;
                                                                                        owl:someValuesFrom :AmbientTemperature
                                                                                      ] ,
@@ -2669,6 +2657,14 @@ om-2:CelsiusTemperature rdf:type owl:Class .
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
+                                                                                       owl:someValuesFrom :ShearRateDoctorBlade
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
+                                                                                       owl:someValuesFrom :ShearRateSlot
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
                                                                                        owl:someValuesFrom :TemperatureOfTheCoatingMaterial
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
@@ -2686,19 +2682,15 @@ om-2:CelsiusTemperature rdf:type owl:Class .
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
                                                                                        owl:someValuesFrom :WebTension
-                                                                                     ] ,
-                                                                                     [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
-                                                                                       owl:someValuesFrom <http://www.databatt.org/ShearRate(DoctorBlade)>
-                                                                                     ] ,
-                                                                                     [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
-                                                                                       owl:someValuesFrom <http://www.databatt.org/ShearRate(Slot)>
                                                                                      ] .
 
 
 ###  https://gpo.ontology.link/GPO_d7b2ecea_f055_4e3e_b5b9_020b8d81130d
 <https://gpo.ontology.link/GPO_d7b2ecea_f055_4e3e_b5b9_020b8d81130d> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                                                                       owl:someValuesFrom :RollPressingMachine
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800> ;
                                                                                        owl:someValuesFrom :AmbientTemperature
                                                                                      ] ,
@@ -2738,6 +2730,10 @@ om-2:CelsiusTemperature rdf:type owl:Class .
 
 ###  https://gpo.ontology.link/GPO_e4ba15be_8fe4_4f9e_9189_c9e762f86492
 <https://gpo.ontology.link/GPO_e4ba15be_8fe4_4f9e_9189_c9e762f86492> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                                                                       owl:someValuesFrom :EoLTestMachine
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800> ;
                                                                                        owl:someValuesFrom :AmbientTemperature
                                                                                      ] ,
@@ -2913,6 +2909,14 @@ om-2:CelsiusTemperature rdf:type owl:Class .
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
+                                                                                       owl:someValuesFrom :ShearRateDoctorBlade
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
+                                                                                       owl:someValuesFrom :ShearRateSlot
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
                                                                                        owl:someValuesFrom :TemperatureOfTheCoatingMaterial
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
@@ -2926,14 +2930,6 @@ om-2:CelsiusTemperature rdf:type owl:Class .
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
                                                                                        owl:someValuesFrom :WebTension
-                                                                                     ] ,
-                                                                                     [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
-                                                                                       owl:someValuesFrom <http://www.databatt.org/ShearRate(DoctorBlade)>
-                                                                                     ] ,
-                                                                                     [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
-                                                                                       owl:someValuesFrom <http://www.databatt.org/ShearRate(Slot)>
                                                                                      ] .
 
 
@@ -2984,6 +2980,10 @@ om-2:CelsiusTemperature rdf:type owl:Class .
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
+                                                                                       owl:someValuesFrom :FoilFoldingWrinkle
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
                                                                                        owl:someValuesFrom :OperatingSpeed
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
@@ -3000,6 +3000,14 @@ om-2:CelsiusTemperature rdf:type owl:Class .
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
+                                                                                       owl:someValuesFrom :ShearRateDoctorBlade
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
+                                                                                       owl:someValuesFrom :ShearRateSlot
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
                                                                                        owl:someValuesFrom :TemperatureOfTheCoatingMaterial
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
@@ -3009,23 +3017,15 @@ om-2:CelsiusTemperature rdf:type owl:Class .
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
                                                                                        owl:someValuesFrom :WebTension
-                                                                                     ] ,
-                                                                                     [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
-                                                                                       owl:someValuesFrom <http://www.databatt.org/FoilFolding(Wrinkle)>
-                                                                                     ] ,
-                                                                                     [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
-                                                                                       owl:someValuesFrom <http://www.databatt.org/ShearRate(DoctorBlade)>
-                                                                                     ] ,
-                                                                                     [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
-                                                                                       owl:someValuesFrom <http://www.databatt.org/ShearRate(Slot)>
                                                                                      ] .
 
 
 ###  https://gpo.ontology.link/GPO_f846eaba_e75a_49df_b71a_5f769e6a7e7e
 <https://gpo.ontology.link/GPO_f846eaba_e75a_49df_b71a_5f769e6a7e7e> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                                                                       owl:someValuesFrom :CalendaringMachine
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800> ;
                                                                                        owl:someValuesFrom :CleanRoom
                                                                                      ] ,
@@ -3048,6 +3048,10 @@ om-2:CelsiusTemperature rdf:type owl:Class .
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
                                                                                        owl:someValuesFrom :CoatingPorosity
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
+                                                                                       owl:someValuesFrom :FoilFoldingWrinkle
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
@@ -3084,10 +3088,6 @@ om-2:CelsiusTemperature rdf:type owl:Class .
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
                                                                                        owl:someValuesFrom :WindingAccuracy
-                                                                                     ] ,
-                                                                                     [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
-                                                                                       owl:someValuesFrom <http://www.databatt.org/FoilFolding(Wrinkle)>
                                                                                      ] .
 
 
